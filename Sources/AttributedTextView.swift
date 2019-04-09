@@ -257,7 +257,7 @@ import UIKit
     private func attributedStringWithDefaultAttributes(from text: String) -> NSAttributedString {
         return NSAttributedString(string: text, attributes: [
             NSAttributedString.Key.font: font ?? UIFont.systemFont(ofSize: 14),
-            NSAttributedString.Key.foregroundColor: textColor ?? UIColor.black
+            NSAttributedString.Key.foregroundColor: tintColor ?? textColor ?? UIColor.black
             ])
     }
     
